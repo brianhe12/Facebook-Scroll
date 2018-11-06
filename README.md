@@ -1,2 +1,2 @@
 # Facebook-Time-Traveling
-Script to scroll up to past messages on Facebook messenger
+Script to scroll up to view past messages on Facebook messenger
