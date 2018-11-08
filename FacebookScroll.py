@@ -19,13 +19,12 @@ newString = int(inputString[Field1:-(inputlen - Field2)])
 months = input("Please enter the number of months you want to scroll back (Will show an error if the months entered is further than your first sent message): ")
 TimeTravel = (((2.628 * 10**9) * float(months)))
 
-print(TimeTravel)
-
 #String casting
 FinalString = str(newString - TimeTravel)
 newString = str(newString)
 
 inputString = inputString.replace(newString,FinalString)
 
+print("Opening Browser..")
 wb.open(inputString, new = 2)
 
